@@ -27,13 +27,13 @@ if os.path.exists(BASE_DIR):
 os.makedirs(FOLDER_RU, exist_ok=True)
 os.makedirs(FOLDER_EURO, exist_ok=True)
 
-# ЖЕСТКИЕ ТАЙМ-АУТЫ
 TIMEOUT = 3 
 socket.setdefaulttimeout(TIMEOUT)
 
-THREADS = 30 # Снижаем нагрузку, чтобы не висло
+THREADS = 40 
 CACHE_HOURS = 12
 CHUNK_LIMIT = 1000
+MAX_KEYS_TO_CHECK = 4000 # Ограничитель! Не проверяем больше этого числа, чтобы не виснуть.
 
 HISTORY_FILE = os.path.join(BASE_DIR, "history.json")
 MY_CHANNEL = "@vlesstrojan" 
@@ -53,6 +53,7 @@ URLS_MY = [
 ]
 
 EURO_CODES = {"NL", "DE", "FI", "GB", "FR", "SE", "PL", "CZ", "AT", "CH", "IT", "ES", "NO", "DK", "BE", "IE", "LU", "EE", "LV", "LT"}
+BAD_MARKERS = ["CN", "IR", "KR", "BR", "IN", "RELAY", "POOL", "🇨🇳", "🇮🇷", "🇰🇷"] # Если это в названии - скипаем
 
 def load_json(path):
     if os.path.exists(path):
@@ -80,23 +81,38 @@ def get_country_fast(host, key_name):
     except: pass
     return "UNKNOWN"
 
+# Фильтр мусора по названию (без сети)
+def is_garbage_text(key_str):
+    upper = key_str.upper()
+    # Проверка маркеров (IR, CN...)
+    for m in BAD_MARKERS:
+        if m in upper: return True
+    # Проверка доменов
+    if ".ir" in key_str or ".cn" in key_str or "127.0.0.1" in key_str: return True
+    return False
+
 def fetch_keys(urls, tag):
     out = []
     print(f"Загрузка {tag}...")
     for url in urls:
         try:
-            r = requests.get(url, timeout=10) # Timeout на скачивание списка
+            r = requests.get(url, timeout=10)
             if r.status_code != 200: continue
             content = r.text.strip()
             if "://" not in content:
                 try: lines = base64.b64decode(content + "==").decode('utf-8', errors='ignore').splitlines()
                 except: lines = content.splitlines()
             else: lines = content.splitlines()
+            
             for l in lines:
                 l = l.strip()
-                # Фильтр мусора: слишком длинные строки часто ломают парсеры
                 if len(l) > 2000: continue 
                 if l.startswith(("vless://", "vmess://", "trojan://", "ss://")):
+                    
+                    # ДЛЯ ВАШИХ ССЫЛОК (MY) - ЖЕСТКИЙ ПРЕД-ФИЛЬТР
+                    if tag == "MY":
+                        if is_garbage_text(l): continue
+                        
                     out.append((l, tag))
         except: pass
     return out
@@ -111,8 +127,7 @@ def check_single_key(data):
 
         country = get_country_fast(host, key)
         
-        # Если это MY ссылка, но страны нет в Европе - сразу скипаем, не проверяя пинг!
-        # Экономит кучу времени.
+        # Второй фильтр (если страна не Европа для MY)
         if tag == "MY" and country != "UNKNOWN" and country not in EURO_CODES:
             return None, None, None
 
@@ -124,11 +139,9 @@ def check_single_key(data):
 
         start = time.time()
         
-        # ЯВНЫЙ timeout везде
         if is_ws:
             protocol = "wss" if is_tls else "ws"
             ws_url = f"{protocol}://{host}:{port}{path}"
-            # Важно: sockopt timeout
             ws = websocket.create_connection(ws_url, timeout=TIMEOUT, sslopt={"cert_reqs": ssl.CERT_NONE}, sockopt=((socket.SOL_SOCKET, socket.SO_RCVTIMEO, TIMEOUT),))
             ws.close()
         elif is_tls:
@@ -153,20 +166,28 @@ def extract_ping(key_str):
     except: return None
 
 if __name__ == "__main__":
-    print(f"=== CHECKER v7 (Anti-Freeze) ===")
+    print(f"=== CHECKER v8 (Auto-Clean & Limit) ===")
     
     history = load_json(HISTORY_FILE)
     tasks = fetch_keys(URLS_RU, "RU") + fetch_keys(URLS_MY, "MY")
     
     unique_tasks = {k: tag for k, tag in tasks}.items()
-    print(f"Всего ключей: {len(unique_tasks)}")
+    total_raw = len(unique_tasks)
+    print(f"Загружено всего: {total_raw}")
+    
+    # ОГРАНИЧИТЕЛЬ: Если ключей > 4000, берем только первые 4000
+    # Это гарантия того, что скрипт не будет висеть часами.
+    all_items = list(unique_tasks)
+    if len(all_items) > MAX_KEYS_TO_CHECK:
+        print(f"⚠️ Слишком много ключей! Берем первые {MAX_KEYS_TO_CHECK} для скорости.")
+        all_items = all_items[:MAX_KEYS_TO_CHECK]
     
     current_time = time.time()
     to_check = []
     res_ru = []
     res_euro = []
     
-    for k, tag in unique_tasks:
+    for k, tag in all_items:
         k_id = k.split("#")[0]
         cached = history.get(k_id)
         if cached and (current_time - cached['time'] < CACHE_HOURS * 3600) and cached['alive']:
@@ -181,7 +202,7 @@ if __name__ == "__main__":
         else:
             to_check.append((k, tag))
 
-    print(f"На проверку: {len(to_check)}")
+    print(f"На проверку (после кэша и лимита): {len(to_check)}")
 
     if to_check:
         with ThreadPoolExecutor(max_workers=THREADS) as executor:
@@ -190,9 +211,7 @@ if __name__ == "__main__":
                 key, tag = future_to_item[future]
                 res = future.result()
                 
-                # Если вернулось None (тайм-аут или ошибка)
-                if not res or res[0] is None:
-                    continue
+                if not res or res[0] is None: continue
                     
                 latency, tag, country = res
                 k_id = key.split("#")[0]
@@ -209,9 +228,6 @@ if __name__ == "__main__":
 
     save_json(HISTORY_FILE, {k:v for k,v in history.items() if current_time - v['time'] < 259200})
     
-    print(f"Найдено RU: {len(res_ru)}")
-    print(f"Найдено Euro: {len(res_euro)}")
-
     res_ru = [k for k in res_ru if extract_ping(k) is not None]
     res_euro = [k for k in res_euro if extract_ping(k) is not None]
 
@@ -235,6 +251,7 @@ if __name__ == "__main__":
         f.write("\n".join(subs))
 
     print("=== DONE SUCCESS ===")
+
 
 
 
