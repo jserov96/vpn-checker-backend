@@ -4,32 +4,28 @@ import html
 import socket
 import ssl
 import time
+import json
 import requests
 import base64
 import websocket
-from datetime import datetime
+from datetime import datetime, timedelta
 from urllib.parse import quote, unquote
 
 # ------------------ Настройки ------------------
 NEW_KEYS_FOLDER = "checked"
 os.makedirs(NEW_KEYS_FOLDER, exist_ok=True)
 
-TIMEOUT = 2   # Таймаут проверки (сек) - быстро и жестко
-RETRIES = 1   # 1 попытка
+TIMEOUT = 2
+RETRIES = 1
+CACHE_DURATION_HOURS = 6  # Если ключ проверяли меньше 6 часов назад - не проверяем снова
 
-timestamp = datetime.now().strftime("%Y%m%d_%H%M")
 LIVE_KEYS_FILE = os.path.join(NEW_KEYS_FOLDER, "live_keys.txt")
-LOG_FILE = os.path.join(NEW_KEYS_FOLDER, "log.txt")
-
+HISTORY_FILE = os.path.join(NEW_KEYS_FOLDER, "history.json") # Тут храним память
 MY_CHANNEL = "@vlesstrojan" 
 
-# === СПИСОК ИСТОЧНИКОВ ===
+# Ваши источники
 URLS = [
-    # 1. ВАШ ОСНОВНОЙ АГРЕГАТОР (где уже "все собрано")
-    # (Я поправил ссылку на RAW формат, чтобы скрипт мог её прочитать)
     "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/main/githubmirror/new/all_new.txt",
-
-    # 2. НОВЫЕ ДОПОЛНИТЕЛЬНЫЕ (от ryzgames / zieng)
     "https://raw.githubusercontent.com/zieng2/wl/main/vless.txt",
     "https://raw.githubusercontent.com/LowiKLive/BypassWhitelistRu/refs/heads/main/WhiteList-Bypass_Ru.txt",
     "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
@@ -41,56 +37,52 @@ URLS = [
 
 # ------------------ Функции ------------------
 
+def load_history():
+    """Загружаем базу проверенных ключей"""
+    if os.path.exists(HISTORY_FILE):
+        try:
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except: return {}
+    return {}
+
+def save_history(history):
+    """Сохраняем базу"""
+    try:
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except: pass
+
 def decode_base64_safe(data):
-    """Безопасная декодировка Base64"""
     try:
         data = data.replace('-', '+').replace('_', '/')
         padding = len(data) % 4
-        if padding:
-            data += '=' * (4 - padding)
+        if padding: data += '=' * (4 - padding)
         return base64.b64decode(data).decode('utf-8', errors='ignore')
-    except:
-        return None
+    except: return None
 
 def fetch_and_load_keys(urls):
-    all_keys = []
+    all_keys = set()
     print(f"Загрузка с {len(urls)} источников...")
-    
     for url in urls:
         try:
-            # Маскируемся под браузер, чтобы ВК/сайты не блочили
             headers = {'User-Agent': 'Mozilla/5.0'}
             resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code != 200: continue
             
-            if resp.status_code != 200:
-                print(f"[ERROR] {url} -> {resp.status_code}")
-                continue
-                
             content = resp.text.strip()
-            
-            # Проверка: если это base64 (нет явных ссылок) -> декодируем
             if "vmess://" not in content and "vless://" not in content:
                 decoded = decode_base64_safe(content)
-                if decoded:
-                    lines = decoded.splitlines()
-                else:
-                    lines = content.splitlines()
+                lines = decoded.splitlines() if decoded else content.splitlines()
             else:
                 lines = content.splitlines()
 
-            count = 0
             for line in lines:
                 line = line.strip()
-                # Берем только нужные протоколы
                 if line.startswith(("vless://", "vmess://", "trojan://", "ss://")):
-                    all_keys.append(line)
-                    count += 1
-            print(f"[OK] {url} -> найдено {count}")
-            
-        except Exception as e:
-            print(f"[FAIL] {url} -> {e}")
-            
-    return list(set(all_keys)) # Убираем дубликаты
+                    all_keys.add(line)
+        except Exception: pass
+    return list(all_keys)
 
 def extract_host_port(key):
     try:
@@ -98,28 +90,19 @@ def extract_host_port(key):
             after_at = key.split("@")[1]
             main_part = re.split(r'[?#]', after_at)[0]
             if ":" in main_part:
-                host, port = main_part.split(":")
-                return host, int(port)
+                return main_part.split(":")[0], int(main_part.split(":")[1])
     except: return None, None
     return None, None
 
-def classify_latency(latency_ms: int) -> str:
-    if latency_ms < 500: return "fast"
-    if latency_ms < 1500: return "normal"
-    return "slow"
-
 def measure_latency(key, host, port, timeout=TIMEOUT):
-    """Hybrid Check: WebSocket vs TCP"""
     is_tls = 'security=tls' in key or 'security=reality' in key or 'trojan://' in key or 'vmess://' in key
     is_ws = 'type=ws' in key or 'net=ws' in key
     
     path = "/"
     path_match = re.search(r'path=([^&]+)', key)
     if path_match: path = unquote(path_match.group(1))
-
     protocol = "wss" if is_tls else "ws"
-    
-    # WebSocket Check (Priority)
+
     if is_ws:
         try:
             start = time.time()
@@ -129,7 +112,6 @@ def measure_latency(key, host, port, timeout=TIMEOUT):
             return int((time.time() - start) * 1000)
         except: return None
 
-    # TLS TCP Check
     if not is_ws and is_tls:
         try:
             start = time.time()
@@ -142,7 +124,6 @@ def measure_latency(key, host, port, timeout=TIMEOUT):
             return int((time.time() - start) * 1000)
         except: return None
 
-    # Plain TCP Check
     try:
         start = time.time()
         with socket.create_connection((host, port), timeout=timeout):
@@ -158,33 +139,89 @@ def add_comment(key, latency, quality):
 
 # ------------------ Main ------------------
 if __name__ == "__main__":
-    print("=== START CHECKER ===")
+    print("=== START SMART CHECKER ===")
     
-    all_keys = fetch_and_load_keys(URLS)
-    print(f"Всего уникальных ключей для проверки: {len(all_keys)}")
+    # 1. Загружаем историю проверок
+    history = load_history()
+    print(f"В истории записей: {len(history)}")
+    
+    # 2. Качаем свежие ключи
+    current_keys = fetch_and_load_keys(URLS)
+    print(f"Скачано уникальных ключей: {len(current_keys)}")
 
-    valid_count = 0
-    
-    with open(LIVE_KEYS_FILE, "w", encoding="utf-8") as f_out:
-        for i, key in enumerate(all_keys):
-            key = html.unescape(key).strip()
+    valid_keys_list = []
+    current_time = time.time()
+    checks_made = 0
+    skipped_count = 0
+
+    # 3. Умная проверка
+    for i, key in enumerate(current_keys):
+        key = html.unescape(key).strip()
+        
+        # Используем сам ключ (без хештега) как ID для базы
+        key_id = key.split("#")[0]
+        
+        # ПРОВЕРКА КЭША
+        cached = history.get(key_id)
+        latency = None
+        need_check = True
+
+        if cached:
+            last_check_time = cached.get('time', 0)
+            # Если проверяли недавно (меньше 6 часов назад)
+            if current_time - last_check_time < (CACHE_DURATION_HOURS * 3600):
+                if cached.get('alive', False):
+                    # Ключ был жив, верим истории
+                    latency = cached.get('latency', 100)
+                    need_check = False
+                    skipped_count += 1
+                else:
+                    # Ключ был мертв, проверяем реже (например, раз в 24 часа) или не проверяем
+                    # Для простоты: мертвые перепроверяем всегда, вдруг ожили? 
+                    # Или можно пропускать: need_check = False
+                    pass
+
+        if need_check:
             host, port = extract_host_port(key)
+            if host:
+                checks_made += 1
+                latency = measure_latency(key, host, port)
+                
+                # Обновляем историю
+                history[key_id] = {
+                    'alive': latency is not None,
+                    'latency': latency,
+                    'time': current_time
+                }
+        
+        # Если живой (из кэша или после проверки)
+        if latency is not None:
+            qual = "fast" if latency < 500 else "normal" if latency < 1500 else "slow"
+            final_key = add_comment(key, latency, qual)
+            valid_keys_list.append(final_key)
             
-            if not host: continue
-            
-            # Лог каждые 50 штук, чтобы в Actions было видно движение
-            if i % 50 == 0: print(f"Progress: {i}/{len(all_keys)} checked...")
+        if i % 100 == 0: 
+            print(f"Processed {i}/{len(current_keys)} (Checks: {checks_made}, Skipped: {skipped_count})")
 
-            latency = measure_latency(key, host, port)
-            
-            if latency is not None:
-                qual = classify_latency(latency)
-                final_key = add_comment(key, latency, qual)
-                f_out.write(final_key + "\n")
-                valid_count += 1
+    # 4. Сохраняем результаты
+    
+    # Чистим старую историю (удаляем записи старше 3 дней, чтобы файл не пух)
+    clean_history = {}
+    for k, v in history.items():
+        if current_time - v['time'] < (3 * 24 * 3600):
+            clean_history[k] = v
+    save_history(clean_history)
 
-    print(f"=== DONE. Valid keys: {valid_count} ===")
-    print(f"Saved to: {LIVE_KEYS_FILE}")
+    with open(LIVE_KEYS_FILE, "w", encoding="utf-8") as f:
+        for k in valid_keys_list:
+            f.write(k + "\n")
+
+    print(f"=== DONE ===")
+    print(f"Valid: {len(valid_keys_list)}")
+    print(f"Real Checks: {checks_made}")
+    print(f"Skipped (Cached): {skipped_count}")
+
+
 
 
 
