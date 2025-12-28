@@ -2,8 +2,8 @@ name: Auto Key Checker
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Запуск каждые 6 часов
-  workflow_dispatch:       # Кнопка для ручного запуска
+    - cron: '0 */4 * * *'  # Каждые 4 часа
+  workflow_dispatch:       # Кнопка запуска
 
 permissions:
   contents: write
@@ -11,6 +11,8 @@ permissions:
 jobs:
   check-keys:
     runs-on: ubuntu-latest
+    timeout-minutes: 350   # Лимит 6 часов, чтобы не отрубило раньше
+    
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -30,5 +32,5 @@ jobs:
       - name: Commit & Push Results
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Auto-update keys: ${{ github.run_number }}"
+          commit_message: "Auto-update checked keys"
           file_pattern: "checked/*"
