@@ -5371,9 +5371,9 @@
   },
   "vless://13bbbb75-2ec5-4262-9784-fe8b6e94510b@87.228.52.147:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=timeweb.cloud&pbk=ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw&sid=965af8960474c29c": {
     "alive": true,
-    "latency": 243,
-    "time": 1781299698.4563243,
-    "country": "IT"
+    "latency": 458,
+    "time": 1781358660.929858,
+    "country": "NO"
   },
   "vless://43b9e556-6e41-48f4-802b-12ae4febbd4b@51.250.14.77:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a": {
     "alive": true,
@@ -10531,9 +10531,9 @@
   },
   "vless://2118b31c-73e9-4fc3-9edf-6ce42fab97e0@193.168.46.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60": {
     "alive": true,
-    "latency": 611,
-    "time": 1781287359.9670746,
-    "country": "SE"
+    "latency": 629,
+    "time": 1781358660.929858,
+    "country": "NO"
   },
   "vless://d6e370f0-9570-4365-a579-56b51e30c80a@193.168.46.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60": {
     "alive": true,
@@ -13888,5 +13888,113 @@
     "latency": 904,
     "time": 1781346277.5341735,
     "country": "DE"
+  },
+  "vless://82069eb7-9ef9-07d0-9cc9-e79a8ada90fc@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1": {
+    "alive": true,
+    "latency": 412,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://cec26960-d44d-4e93-b50e-6a7c74ec63d4@193.168.46.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60": {
+    "alive": true,
+    "latency": 412,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://4ba6ac8e-693a-4d4e-b969-b0de0a891832@193.168.46.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60": {
+    "alive": true,
+    "latency": 397,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://761ce128-4819-420e-bbd1-b51b6672b3f8@193.168.46.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60": {
+    "alive": true,
+    "latency": 422,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://844cd588-b316-4cfd-b466-16946e205336@62.113.43.195:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=eh.vk.com&pbk=RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE&sid=abbcd128": {
+    "alive": true,
+    "latency": 355,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://844cd588-b316-4cfd-b466-16946e205336@62.113.43.195:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE&sid=abbcd128": {
+    "alive": true,
+    "latency": 424,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://844cd588-b316-4cfd-b466-16946e205336@62.113.43.195:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE&sid=abbcd128": {
+    "alive": true,
+    "latency": 358,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://82069eb7-9ef9-1f40-9cc9-e79a8ada90fc@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1": {
+    "alive": true,
+    "latency": 465,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://bd884bda-3b6b-44cf-8a43-c49a53500934@51.250.17.80:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a": {
+    "alive": true,
+    "latency": 529,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://82069eb7-9ef9-03e8-9cc9-e79a8ada90fc@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1": {
+    "alive": true,
+    "latency": 464,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://82069eb7-9ef9-0bb8-9cc9-e79a8ada90fc@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1": {
+    "alive": true,
+    "latency": 465,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://82069eb7-9ef9-2328-9cc9-e79a8ada90fc@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1": {
+    "alive": true,
+    "latency": 419,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://b67ed271-5a34-4d07-9970-f8ba27ca2c8a@45.91.55.234:7443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=rutube.ru&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&sid=d82fb387": {
+    "alive": true,
+    "latency": 386,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://bbdfeddd-9574-453a-bf0d-258616166b0f@51.250.97.18:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a": {
+    "alive": true,
+    "latency": 372,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://bbdfeddd-9574-453a-bf0d-258616166b0f@51.250.17.80:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a": {
+    "alive": true,
+    "latency": 347,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://0a37f060-16ab-4c61-8063-d466f6fe4097@185.91.53.53:1443?encryption=none&type=grpc&security=reality&mode=multi&serviceName=grpc-vk&fp=qq&sni=avatars.mds.yandex.net&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=e67fb918ed6b9ffb": {
+    "alive": true,
+    "latency": 864,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://0a37f060-16ab-4c61-8063-d466f6fe4097@185.91.52.217:1446?encryption=none&type=grpc&security=reality&mode=multi&serviceName=grpc-vk&fp=qq&sni=ads.x5.ru&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=e67fb918ed6b9ffb": {
+    "alive": true,
+    "latency": 403,
+    "time": 1781358660.929858,
+    "country": "NO"
+  },
+  "vless://0a37f060-16ab-4c61-8063-d466f6fe4097@185.91.53.53:1446?encryption=none&type=grpc&security=reality&mode=multi&serviceName=grpc-vk&fp=qq&sni=ads.x5.ru&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=e67fb918ed6b9ffb": {
+    "alive": true,
+    "latency": 792,
+    "time": 1781358660.929858,
+    "country": "NO"
   }
 }
