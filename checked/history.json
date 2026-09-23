@@ -1,9 +1,9 @@
 {
   "vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?encryption=none&fp=chrome&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&security=reality&sid=23103e1e&sni=ya.ru&type=raw": {
     "alive": true,
-    "latency": 1493,
-    "time": 1790093395.2062778,
-    "country": "ES"
+    "latency": 1382,
+    "time": 1790154072.2707405,
+    "country": "SE"
   },
   "vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?encryption=none&fp=qq&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&security=reality&sid=23103e1e&sni=ya.ru&type=raw": {
     "alive": true,
@@ -41,12 +41,6 @@
     "time": 1790031490.8568778,
     "country": "ES"
   },
-  "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&fp=firefox&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp": {
-    "alive": true,
-    "latency": 342,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
   "vless://06ec3898-f952-52a5-8547-51ae1e6f0a62@84.201.164.49:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=2SVMBXiViUclgzkSfLCV2w6dOMJwA61YGFv7ne5wMgM&security=reality&sni=api-maps.yandex.ru&type=raw": {
     "alive": true,
     "latency": 392,
@@ -79,9 +73,9 @@
   },
   "vless://a2738d8d-ed26-4b13-a4a2-b89c7238cd10@45.11.27.86:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk&security=reality&sid=d0aae44f&sni=5post-gate.x5.ru&type=raw": {
     "alive": true,
-    "latency": 2957,
-    "time": 1790093395.2062778,
-    "country": "AT"
+    "latency": 1874,
+    "time": 1790154072.2707405,
+    "country": "SE"
   },
   "vless://a2738d8d-ed26-4b13-a4a2-b89c7238cd10@45.11.27.86:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk&security=reality&sid=d0aae44f&sni=5post-gate.x5.ru&type=raw": {
     "alive": true,
@@ -91,15 +85,15 @@
   },
   "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.162.100:9880?encryption=none&fp=firefox&mode=gun&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&security=reality&serviceName=grpc-tunnel&sni=dl.google.com&type=grpc": {
     "alive": true,
-    "latency": 916,
-    "time": 1790093395.2062778,
-    "country": "ES"
+    "latency": 448,
+    "time": 1790154072.2707405,
+    "country": "FR"
   },
   "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.161.222:9892?encryption=none&fp=firefox&mode=gun&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&security=reality&serviceName=grpc-tunnel&sni=dl.google.com&type=grpc": {
     "alive": true,
-    "latency": 378,
-    "time": 1790093395.2062778,
-    "country": "ES"
+    "latency": 320,
+    "time": 1790154072.2707405,
+    "country": "SE"
   },
   "vless://237f91bf-102e-4077-8cc3-baebccb42936@85.198.70.200:14406?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY&security=reality&sid=1a2b3c4d5e6f7a8b&sni=vk.ru&type=raw": {
     "alive": true,
@@ -245,419 +239,11 @@
     "time": 1789983143.5336573,
     "country": "SE"
   },
-  "vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=safari&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=raw": {
-    "alive": true,
-    "latency": 445,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=ios&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=raw": {
-    "alive": true,
-    "latency": 464,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://c91a22cd-bd4f-497d-abad-68dc565534a2@46.243.142.63:8443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A30%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=an9b3d-07.p.portshaper.com&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=an9b3d-07.p.portshaper.com&type=xhttp": {
-    "alive": true,
-    "latency": 912,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://c91a22cd-bd4f-497d-abad-68dc565534a2@94.139.255.25:11443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A30%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=shprcdn.xyz&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=shprcdn.xyz&type=xhttp": {
-    "alive": true,
-    "latency": 673,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://c91a22cd-bd4f-497d-abad-68dc565534a2@94.139.255.254:5443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%224-8%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=shprcdn.net&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=shprcdn.net&type=xhttp": {
-    "alive": true,
-    "latency": 674,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://323077c9-8643-40b0-8ad0-883a894ceda0@185.229.9.236:43005?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=tP_mtYuA3fZq8C6WatAA4TmDv0_Wigq9xYcmb5UsTRA&security=reality&sid=93653ee07ff5124c&sni=max.ru&spx=%2F&type=raw": {
-    "alive": true,
-    "latency": 409,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://76942250-003e-4ad7-a51d-fd08eb1e7698@37.9.4.128:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=illusion.datapull.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=illusion.datapull.cc&type=xhttp": {
-    "alive": true,
-    "latency": 380,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://76942250-003e-4ad7-a51d-fd08eb1e7698@188.68.218.110:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=forward-change.pushbyte.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=forward-change.pushbyte.cc&type=xhttp": {
-    "alive": true,
-    "latency": 456,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://aa74d10f-fdbe-4ba4-8f17-ae6da4d9d5ed@185.86.144.101:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY&security=reality&sni=yandex.ru&type=raw": {
-    "alive": true,
-    "latency": 456,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?encryption=none&extra=null&fp=chrome&path=%2F&security=tls&sni=6a32736d.ferrin.uk&type=xhttp": {
-    "alive": true,
-    "latency": 522,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%220%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&security=tls&sni=6a32736d.ferrin.uk&type=xhttp": {
-    "alive": true,
-    "latency": 499,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://76942250-003e-4ad7-a51d-fd08eb1e7698@31.129.42.37:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=forward-change.datapull.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=forward-change.datapull.cc&type=xhttp": {
-    "alive": true,
-    "latency": 505,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://76942250-003e-4ad7-a51d-fd08eb1e7698@188.68.218.160:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=blue.pushbyte.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=blue.pushbyte.cc&type=xhttp": {
-    "alive": true,
-    "latency": 504,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://37b42028-9610-4672-9d4e-d9ac019365ac@185.22.235.63:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=ads.x5.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 508,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://37b42028-9610-4672-9d4e-d9ac019365ac@185.22.235.181:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=api-maps.yandex.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 486,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://37b42028-9610-4672-9d4e-d9ac019365ac@185.22.235.63:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=web.max.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 469,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://37b42028-9610-4672-9d4e-d9ac019365ac@185.22.235.181:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=smartcaptcha.yandexcloud.net&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 451,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://37b42028-9610-4672-9d4e-d9ac019365ac@185.22.235.181:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=sso.passport.yandex.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 454,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200@84.201.146.8:443?encryption=none&extra=null&fp=firefox&pbk=biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo&security=reality&sni=max.ru&type=xhttp": {
-    "alive": true,
-    "latency": 449,
-    "time": 1789873596.7258635,
-    "country": "SE"
-  },
-  "vless://777949fb-494c-451a-9816-ec86f72943cf@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 554,
-    "time": 1789873596.7258635,
-    "country": "FR"
-  },
-  "vless://777949fb-494c-451a-9816-ec86f72943cf@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 421,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://777949fb-494c-451a-9816-ec86f72943cf@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 423,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://99c2b4c8-7880-4856-a724-7846191ae972@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 451,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://99c2b4c8-7880-4856-a724-7846191ae972@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 587,
-    "time": 1789873596.7258635,
-    "country": "FR"
-  },
-  "vless://99c2b4c8-7880-4856-a724-7846191ae972@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 427,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://7be96f99-015b-41d0-bf36-7fce1512146a@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 453,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://7be96f99-015b-41d0-bf36-7fce1512146a@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 610,
-    "time": 1789873596.7258635,
-    "country": "FR"
-  },
-  "vless://7be96f99-015b-41d0-bf36-7fce1512146a@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 431,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://d58e7f2b-b537-4e76-ba3f-2678b406308d@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 398,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://d58e7f2b-b537-4e76-ba3f-2678b406308d@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 604,
-    "time": 1789873596.7258635,
-    "country": "FR"
-  },
-  "vless://d58e7f2b-b537-4e76-ba3f-2678b406308d@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 413,
-    "time": 1789873596.7258635,
-    "country": "CH"
-  },
-  "vless://00bd52a3-e35d-4431-addf-7c9abd672e39@46.243.142.63:8443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A30%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=an9b3d-07.p.portshaper.com&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=an9b3d-07.p.portshaper.com&type=xhttp": {
-    "alive": true,
-    "latency": 694,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://00bd52a3-e35d-4431-addf-7c9abd672e39@94.139.255.254:5443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%224-8%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=shprcdn.net&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=shprcdn.net&type=xhttp": {
-    "alive": true,
-    "latency": 679,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://00bd52a3-e35d-4431-addf-7c9abd672e39@94.139.255.25:11443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A30%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=shprcdn.xyz&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=shprcdn.xyz&type=xhttp": {
-    "alive": true,
-    "latency": 654,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://5cd29ca3-635a-4b46-9ca8-bb9dbdbb0337@185.229.9.236:43005?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=tP_mtYuA3fZq8C6WatAA4TmDv0_Wigq9xYcmb5UsTRA&security=reality&sid=93653ee07ff5124c&sni=max.ru&spx=%2F&type=raw": {
-    "alive": true,
-    "latency": 456,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://83d007ba-5309-4378-855f-37285ae65f2f@37.9.4.128:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=illusion.datapull.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=illusion.datapull.cc&type=xhttp": {
-    "alive": true,
-    "latency": 393,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://83d007ba-5309-4378-855f-37285ae65f2f@188.68.218.160:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=blue.pushbyte.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=blue.pushbyte.cc&type=xhttp": {
-    "alive": true,
-    "latency": 468,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://0b2d0e96-f7bd-4037-bca8-18116d55e894@185.86.144.101:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY&security=reality&sni=yandex.ru&type=raw": {
-    "alive": true,
-    "latency": 428,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://0b2d0e96-f7bd-4037-bca8-18116d55e894@158.160.189.29:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY&security=reality&sni=yandex.ru&type=raw": {
-    "alive": true,
-    "latency": 415,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%220%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=stream-one&path=%2F&security=tls&sni=6a32736d.ferrin.uk&type=xhttp": {
-    "alive": true,
-    "latency": 386,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://1122d3f2-e527-489e-a910-ba63a4dcb9c5@87.242.95.199:2443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uVBnwRHxC00G__KwRjBul-KLyS2F0PNwGQZJy5hwxEw&security=reality&sid=48164dd875e289e1&sni=cloudcdn-m9-9.cdn.yandex.net&type=raw": {
-    "alive": true,
-    "latency": 593,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://1122d3f2-e527-489e-a910-ba63a4dcb9c5@87.242.95.199:2443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uVBnwRHxC00G__KwRjBul-KLyS2F0PNwGQZJy5hwxEw&security=reality&sid=528ed46165a5fe41&sni=cloudcdn-m9-9.cdn.yandex.net&type=raw": {
-    "alive": true,
-    "latency": 550,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://1122d3f2-e527-489e-a910-ba63a4dcb9c5@87.242.95.199:2443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uVBnwRHxC00G__KwRjBul-KLyS2F0PNwGQZJy5hwxEw&security=reality&sid=cd56cb6ab5a1782b&sni=cloudcdn-m9-9.cdn.yandex.net&type=raw": {
-    "alive": true,
-    "latency": 739,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://1122d3f2-e527-489e-a910-ba63a4dcb9c5@87.242.95.199:2443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uVBnwRHxC00G__KwRjBul-KLyS2F0PNwGQZJy5hwxEw&security=reality&sid=1a4cbe5db5121a9d&sni=cloudcdn-m9-9.cdn.yandex.net&type=raw": {
-    "alive": true,
-    "latency": 575,
-    "time": 1789894816.4396613,
-    "country": "BE"
-  },
-  "vless://1122d3f2-e527-489e-a910-ba63a4dcb9c5@87.242.95.199:2443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uVBnwRHxC00G__KwRjBul-KLyS2F0PNwGQZJy5hwxEw&security=reality&sid=d6e1e5af4fe7bd10&sni=cloudcdn-m9-9.cdn.yandex.net&type=raw": {
-    "alive": true,
-    "latency": 590,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://83d007ba-5309-4378-855f-37285ae65f2f@31.129.42.37:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=forward-change.datapull.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=forward-change.datapull.cc&type=xhttp": {
-    "alive": true,
-    "latency": 416,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://83d007ba-5309-4378-855f-37285ae65f2f@188.68.218.110:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=qq&host=forward-change.pushbyte.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=forward-change.pushbyte.cc&type=xhttp": {
-    "alive": true,
-    "latency": 393,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://425600a2-b3fd-42e3-9e87-d247e3bad380@185.22.235.63:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=api-maps.yandex.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 492,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://425600a2-b3fd-42e3-9e87-d247e3bad380@185.22.235.63:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=sso.passport.yandex.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 465,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://425600a2-b3fd-42e3-9e87-d247e3bad380@87.242.127.110:9443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=smartcaptcha.yandexcloud.net&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 465,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://425600a2-b3fd-42e3-9e87-d247e3bad380@185.22.235.181:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=web.max.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 479,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://425600a2-b3fd-42e3-9e87-d247e3bad380@185.22.235.181:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=ads.x5.ru&spx=%2F&type=grpc": {
-    "alive": true,
-    "latency": 477,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200@84.201.146.8:443?encryption=none&extra=null&fp=edge&host=max.ru&pbk=biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo&security=reality&sni=max.ru&type=xhttp": {
-    "alive": true,
-    "latency": 402,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
   "vless://1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200@84.201.146.8:443?encryption=none&extra=null&fp=safari&host=max.ru&pbk=biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo&security=reality&sni=max.ru&type=xhttp": {
     "alive": true,
     "latency": 340,
     "time": 1790093395.2062778,
     "country": "ES"
-  },
-  "vless://e6edfbbf-2126-4c54-b5ad-504069c8dad4@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 777,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://e6edfbbf-2126-4c54-b5ad-504069c8dad4@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 371,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://e6edfbbf-2126-4c54-b5ad-504069c8dad4@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 359,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://c8e8aa42-6df5-463a-832a-35106ed65eaf@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 373,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://c8e8aa42-6df5-463a-832a-35106ed65eaf@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 561,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://c8e8aa42-6df5-463a-832a-35106ed65eaf@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 360,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://4b5cd8cd-5760-459c-8850-1dd65f29dbd9@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 374,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://4b5cd8cd-5760-459c-8850-1dd65f29dbd9@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 516,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://4b5cd8cd-5760-459c-8850-1dd65f29dbd9@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 380,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://c44ac745-a227-4bd9-934f-bfdfb116afda@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 351,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://c44ac745-a227-4bd9-934f-bfdfb116afda@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 367,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://c44ac745-a227-4bd9-934f-bfdfb116afda@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 585,
-    "time": 1789894816.4396613,
-    "country": "NO"
-  },
-  "vless://d1f6cef7-9506-4624-b3be-559a5a6a015f@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
-    "alive": true,
-    "latency": 1198,
-    "time": 1789894816.4396613,
-    "country": "BE"
-  },
-  "vless://d1f6cef7-9506-4624-b3be-559a5a6a015f@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
-    "alive": true,
-    "latency": 377,
-    "time": 1789894816.4396613,
-    "country": "CH"
-  },
-  "vless://d1f6cef7-9506-4624-b3be-559a5a6a015f@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
-    "alive": true,
-    "latency": 341,
-    "time": 1789894816.4396613,
-    "country": "CH"
   },
   "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.108.246.110:9830?authority=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI&encryption=none&fp=chrome&mode=gun&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&security=reality&serviceName=grpc-tunnel&sni=dl.google.com&type=grpc": {
     "alive": true,
@@ -2512,5 +2098,125 @@
     "latency": 345,
     "time": 1790132582.8132498,
     "country": "EE"
+  },
+  "vless://45d434d0-3762-43a0-b417-d08a2877b89d@46.243.142.63:8443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A30%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=an9b3d-07.p.portshaper.com&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=an9b3d-07.p.portshaper.com&type=xhttp": {
+    "alive": true,
+    "latency": 1747,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://45d434d0-3762-43a0-b417-d08a2877b89d@94.139.255.25:11443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A30%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=shprcdn.xyz&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=shprcdn.xyz&type=xhttp": {
+    "alive": true,
+    "latency": 637,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://45d434d0-3762-43a0-b417-d08a2877b89d@94.139.255.254:5443?encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%2Fx%22%2C%22mode%22%3A%22stream-one%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%224-8%22%2C%22cMaxReuseTimes%22%3A%22256-512%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%22900-1500%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&host=shprcdn.net&mode=stream-one&path=%2Fapi%2Fv2%2Fsession%2Fopen&pbk=5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0&security=reality&sid=eea4ab7bddaeea39&sni=shprcdn.net&type=xhttp": {
+    "alive": true,
+    "latency": 2809,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://c34617a9-6129-4fe6-b415-806e68f5b226@185.134.200.180:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=9DYcPSOhAWfV2SZxQyhp8jm02__C03hL5q0UeXLnc2w&security=reality&sid=b145ac957cd68094&sni=www.vk.com&spx=%2F&type=raw": {
+    "alive": true,
+    "latency": 283,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://c34617a9-6129-4fe6-b415-806e68f5b226@185.229.9.236:43005?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=tP_mtYuA3fZq8C6WatAA4TmDv0_Wigq9xYcmb5UsTRA&security=reality&sid=93653ee07ff5124c&sni=max.ru&spx=%2F&type=raw": {
+    "alive": true,
+    "latency": 381,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://c34617a9-6129-4fe6-b415-806e68f5b226@185.134.200.180:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SGke3Xg-FLnDu0-T7zXLF7tgqKDMqaPDDxYDUE2uSzc&security=reality&sid=b0c41ea19f63efc4&sni=ads.x5.ru&spx=%2F&type=raw": {
+    "alive": true,
+    "latency": 342,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://c34617a9-6129-4fe6-b415-806e68f5b226@185.134.200.180:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=ewAaicnEvgiMAnYTHPGl4tiQfQUNDDWbvB_GAtG80gU&security=reality&sid=d1d5fa3c27a29815&sni=yandex.ru&spx=%2F&type=raw": {
+    "alive": true,
+    "latency": 342,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://688cc2ab-aefa-4887-8de5-72218f064a09@31.129.42.37:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%220%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A%223%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=safari&host=forward-change.datapull.cc&mode=packet-up&path=%2Fapi%2Fv2%2F&security=tls&sni=forward-change.datapull.cc&type=xhttp": {
+    "alive": true,
+    "latency": 365,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://4628e434-4908-4a7e-be8f-7c32fb328cf0@212.233.121.169:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY&security=reality&sni=yandex.ru&type=raw": {
+    "alive": true,
+    "latency": 327,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://40840a6b-0e08-4e75-a23c-7b8a318ad54a@185.22.235.63:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=web.max.ru&spx=%2F&type=grpc": {
+    "alive": true,
+    "latency": 419,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://40840a6b-0e08-4e75-a23c-7b8a318ad54a@87.242.127.110:9443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=smartcaptcha.yandexcloud.net&spx=%2F&type=grpc": {
+    "alive": true,
+    "latency": 486,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://40840a6b-0e08-4e75-a23c-7b8a318ad54a@185.22.235.181:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=sso.passport.yandex.ru&spx=%2F&type=grpc": {
+    "alive": true,
+    "latency": 467,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://40840a6b-0e08-4e75-a23c-7b8a318ad54a@185.22.235.63:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=api-maps.yandex.ru&spx=%2F&type=grpc": {
+    "alive": true,
+    "latency": 433,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://40840a6b-0e08-4e75-a23c-7b8a318ad54a@185.22.235.181:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=ads.x5.ru&spx=%2F&type=grpc": {
+    "alive": true,
+    "latency": 450,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://40840a6b-0e08-4e75-a23c-7b8a318ad54a@185.22.235.63:443?encryption=none&fp=firefox&mode=gun&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&serviceName=grpc-vk&sid=428ef87fd47a3a33&sni=smartcaptcha.yandexcloud.net&spx=%2F&type=grpc": {
+    "alive": true,
+    "latency": 478,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://2fcbd9ff-566f-4474-b81b-f03c600a6869@46.243.142.184:8444?authority=ppfu3n-01.p.portshaper.com&encryption=none&fp=edge&mode=gun&pbk=b6SEWuzbmM0LK3AgcYZCIDPFRYbdP6ScVeajomMn_xU&security=reality&serviceName=google.storage.v2.Storage&sni=ppfu3n-01.p.portshaper.com&type=grpc": {
+    "alive": true,
+    "latency": 471,
+    "time": 1790154072.2707405,
+    "country": "FR"
+  },
+  "vless://2fcbd9ff-566f-4474-b81b-f03c600a6869@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8eee%2F&security=tls&sni=b2.civik2.online&type=xhttp": {
+    "alive": true,
+    "latency": 280,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://2fcbd9ff-566f-4474-b81b-f03c600a6869@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-8ddd%2F&security=tls&sni=a1.lancer1.online&type=xhttp": {
+    "alive": true,
+    "latency": 274,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://2fcbd9ff-566f-4474-b81b-f03c600a6869@188.72.103.4:443?alpn=h2&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%2296-1040%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingKey%22%3A%22_t%22%2C%22xPaddingHeader%22%3A%22X-Media-Token%22%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22sessionIDPlacement%22%3A%22header%22%2C%22sessionIDKey%22%3A%22token%22%2C%22sessionIDTable%22%3A%22Base62%22%2C%22sessionIDLength%22%3A%2216-32%22%2C%22seqPlacement%22%3A%22cookie%22%2C%22seqKey%22%3A%22part_index%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%22976846%22%2C%22scMinPostsIntervalMs%22%3A%2270%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=firefox&mode=packet-up&path=%2Fstatic%2Fjs%2Fapp-ooo%2F&security=tls&sni=o1.orionv2.online&type=xhttp": {
+    "alive": true,
+    "latency": 274,
+    "time": 1790154072.2707405,
+    "country": "SE"
+  },
+  "vless://a65afb43-6226-4405-9436-012ad9e76777@87.242.94.69:1443?encryption=none&fp=firefox&mode=gun&pbk=xuCfFoK0x0ZEOvd7HQ9dF2HlZMkKvVV9rQmkiYcBuik&security=reality&sid=327088cd7331&sni=edge.edgeprobe.dev&type=grpc": {
+    "alive": true,
+    "latency": 847,
+    "time": 1790154072.2707405,
+    "country": "SE"
   }
 }
